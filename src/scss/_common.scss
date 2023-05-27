@@ -1,0 +1,54 @@
+.t-c-1 {
+  color: #16543f;
+}
+
+// box
+
+.b-bc-1 {
+  background-color: #4c3838;
+  background-image: linear-gradient(310deg, #0bb9a1 -100%, #4c3838 100%);
+}
+
+.b-bc-2 {
+  background-color: #273c34;
+  background-image: linear-gradient(310deg, #0bb9a1 -100%, #273c34 100%);
+}
+
+// button
+
+.wrapper-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn.btn-1 {
+  background-color: #0ab9a1;
+  color: #fbdaa9;
+  transition: all 0.2s;
+  &:hover {
+    background-color: #068473;
+    color: #f8cf93;
+  }
+  &:active {
+    background-color: #034a40;
+    color: #f7c77d;
+    border-color: #ffffff;
+    transform: scale(1.1);
+  }
+}
+.btn.commands_list {
+  background-color: #057030;
+  color: #fbdaa9;
+  transition: all 0.1s;
+  &:hover {
+    background-color: #0d5526;
+    color: #efd6b1;
+  }
+  &:active {
+    background-color: #102c19;
+    color: #ffffff;
+    border-color: #ffffff;
+    transform: scale(1.1);
+  }
+}
